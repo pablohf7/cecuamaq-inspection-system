@@ -3,8 +3,8 @@ CECUAMAQ - Sistema de Inspecciones Industriales
 Aplicación principal
 """
 import flet as ft
-from app.config import check_db_connection, init_db, settings
-from app.utils import logger
+from .config import check_db_connection, init_db, settings
+from .utils import logger
 
 
 class CecuamaqApp:
