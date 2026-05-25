@@ -12,6 +12,7 @@ class DashboardView:
         self.page = page
         self.on_navigate = on_navigate
         
+        
     def build(self) -> ft.Container:
         """Construir vista de dashboard"""
         
@@ -50,13 +51,12 @@ class DashboardView:
         # Contenido principal
         content = ft.Column(
             [
-                ft.Container(height=20),
                 ft.Text(
                     "Bienvenido al Sistema de Inspecciones",
                     size=24,
                     weight=ft.FontWeight.BOLD
                 ),
-                ft.Container(height=20),
+                ft.Container(height=30),
                 stats_row,
                 ft.Container(height=30),
                 ft.Row([
@@ -75,12 +75,14 @@ class DashboardView:
                 self.create_recent_inspections_table(),
             ],
             scroll=ft.ScrollMode.AUTO,
-            expand=True
+            expand=True,
+            spacing=0,
+            alignment=ft.MainAxisAlignment.START
         )
         
         return ft.Container(
             content=content,
-            padding=20,
+            padding=ft.padding.only(left=20, right=20, top=0, bottom=20),
             expand=True
         )
     
@@ -175,7 +177,6 @@ class DashboardView:
                         ),
                     ]
                 ),
-                # Agregar más filas de ejemplo...
             ],
             border=ft.border.all(1, ft.colors.GREY_300),
             border_radius=5,
@@ -184,7 +185,6 @@ class DashboardView:
     
     def refresh_data(self):
         """Actualizar datos del dashboard"""
-        # TODO: Implementar actualización de datos
         self.page.snack_bar = ft.SnackBar(
             content=ft.Text("Datos actualizados"),
             action="OK"
