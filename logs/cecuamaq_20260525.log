@@ -201,3 +201,64 @@
 2026-05-25 17:52:04 - cecuamaq - INFO - Sesión cerrada
 2026-05-25 17:56:50 - cecuamaq - INFO - Iniciando aplicación CECUAMAQ...
 2026-05-25 17:56:51 - cecuamaq - INFO - Base de datos inicializada correctamente
+2026-05-25 18:01:55 - cecuamaq - INFO - Iniciando aplicación CECUAMAQ...
+2026-05-25 18:01:56 - cecuamaq - INFO - Base de datos inicializada correctamente
+2026-05-25 18:02:14 - cecuamaq - INFO - Login exitoso: admin
+2026-05-25 18:02:14 - cecuamaq - INFO - Navegando a: dashboard
+2026-05-25 18:02:22 - cecuamaq - INFO - Navegando a: equipment
+2026-05-25 18:02:27 - cecuamaq - INFO - Navegando a: inspections
+2026-05-25 18:02:28 - cecuamaq - INFO - Navegando a: clients
+2026-05-25 18:02:30 - cecuamaq - INFO - Navegando a: plants
+2026-05-25 18:02:51 - cecuamaq - INFO - Navegando a: equipment
+2026-05-25 18:02:54 - cecuamaq - INFO - Navegando a: plants
+2026-05-25 18:02:56 - cecuamaq - INFO - Navegando a: equipment
+2026-05-25 18:03:00 - cecuamaq - INFO - Navegando a: plants
+2026-05-25 18:03:03 - cecuamaq - INFO - Navegando a: equipment
+2026-05-25 18:03:05 - cecuamaq - INFO - Navegando a: inspections
+2026-05-25 18:03:08 - cecuamaq - INFO - Navegando a: reports
+2026-05-25 18:03:36 - cecuamaq - INFO - Navegando a: users
+2026-05-25 18:03:58 - cecuamaq - INFO - Navegando a: reports
+2026-05-25 18:03:59 - cecuamaq - INFO - Navegando a: inspections
+2026-05-25 18:04:01 - cecuamaq - INFO - Navegando a: equipment
+2026-05-25 18:04:02 - cecuamaq - INFO - Navegando a: plants
+2026-05-25 18:04:03 - cecuamaq - INFO - Navegando a: clients
+2026-05-25 18:04:04 - cecuamaq - INFO - Navegando a: dashboard
+2026-05-25 18:04:04 - cecuamaq - INFO - Navegando a: clients
+2026-05-25 18:04:05 - cecuamaq - INFO - Navegando a: plants
+2026-05-25 18:04:06 - cecuamaq - INFO - Navegando a: equipment
+2026-05-25 18:04:08 - cecuamaq - INFO - Navegando a: inspections
+2026-05-25 18:04:09 - cecuamaq - INFO - Navegando a: reports
+2026-05-25 18:04:10 - cecuamaq - INFO - Navegando a: users
+2026-05-25 18:04:11 - cecuamaq - INFO - Navegando a: inspections
+2026-05-25 18:04:13 - cecuamaq - INFO - Navegando a: plants
+2026-05-25 18:04:16 - cecuamaq - INFO - Sesión cerrada
+2026-05-25 18:04:18 - cecuamaq - INFO - Sesión cerrada
+2026-05-25 18:04:20 - cecuamaq - INFO - Sesión cerrada
+2026-05-25 18:04:22 - cecuamaq - INFO - Sesión cerrada
+2026-05-25 18:04:23 - cecuamaq - INFO - Sesión cerrada
+2026-05-25 18:04:24 - cecuamaq - INFO - Sesión cerrada
+2026-05-25 18:04:29 - cecuamaq - INFO - Sesión cerrada
+2026-05-25 18:04:32 - cecuamaq - INFO - Sesión cerrada
+2026-05-25 18:12:42 - cecuamaq - INFO - Iniciando aplicación CECUAMAQ...
+2026-05-25 18:12:43 - cecuamaq - INFO - Base de datos inicializada correctamente
+2026-05-25 18:12:52 - cecuamaq - INFO - Login exitoso: admin
+2026-05-25 18:12:52 - cecuamaq - INFO - Navegando a: dashboard
+2026-05-25 18:13:36 - cecuamaq - INFO - Navegando a: clients
+2026-05-25 18:13:45 - cecuamaq - INFO - Navegando a: plants
+2026-05-25 18:13:55 - cecuamaq - INFO - Navegando a: equipment
+2026-05-25 18:14:24 - cecuamaq - INFO - Navegando a: inspections
+2026-05-25 18:14:27 - cecuamaq - INFO - Navegando a: reports
+2026-05-25 18:14:32 - cecuamaq - INFO - Navegando a: reports
+2026-05-25 18:14:45 - cecuamaq - INFO - Navegando a: users
+2026-05-25 18:14:56 - cecuamaq - INFO - Navegando a: reports
+2026-05-25 18:14:57 - cecuamaq - INFO - Navegando a: inspections
+2026-05-25 18:14:58 - cecuamaq - INFO - Navegando a: equipment
+2026-05-25 18:15:01 - cecuamaq - INFO - Navegando a: plants
+2026-05-25 18:15:02 - cecuamaq - INFO - Navegando a: clients
+2026-05-25 18:15:04 - cecuamaq - INFO - Navegando a: dashboard
+2026-05-25 18:15:05 - cecuamaq - INFO - Navegando a: clients
+2026-05-25 18:15:07 - cecuamaq - INFO - Navegando a: plants
+2026-05-25 18:15:08 - cecuamaq - INFO - Navegando a: equipment
+2026-05-25 18:15:10 - cecuamaq - INFO - Navegando a: inspections
+2026-05-25 18:15:11 - cecuamaq - INFO - Navegando a: reports
+2026-05-25 18:15:12 - cecuamaq - INFO - Navegando a: users
