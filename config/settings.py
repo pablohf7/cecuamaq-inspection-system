@@ -34,7 +34,7 @@ class Settings:
     DB_PORT = int(os.getenv("DB_PORT", 5432))
     DB_NAME = os.getenv("DB_NAME", "cecuamaq_inspections")
     DB_USER = os.getenv("DB_USER", "postgres")
-    DB_PASSWORD = os.getenv("DB_PASSWORD", "postgres")
+    DB_PASSWORD = os.getenv("DB_PASSWORD", "admin123")
     
     # Database URL
     DATABASE_URL = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"

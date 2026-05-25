@@ -7,7 +7,7 @@ from sqlalchemy.pool import QueuePool
 from contextlib import contextmanager
 import logging
 
-from app.config.settings import settings
+from config.settings import settings
 
 # Logger
 logger = logging.getLogger(__name__)
@@ -78,7 +78,7 @@ def init_db():
     """
     try:
         # Importar todos los modelos para que se registren
-        from app.models import (
+        from models import (
             user, client, plant, technical_location,
             equipment, assembly, component, inspection,
             parameter, photo

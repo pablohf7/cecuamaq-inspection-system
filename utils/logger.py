@@ -7,7 +7,7 @@ from pathlib import Path
 from datetime import datetime
 from colorlog import ColoredFormatter
 
-from app.config.settings import settings
+from config.settings import settings
 
 
 def setup_logger(name: str = __name__) -> logging.Logger:

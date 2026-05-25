@@ -3,7 +3,7 @@ Formateadores de datos
 """
 from datetime import datetime
 from typing import Optional
-from app.config.settings import settings
+from config.settings import settings
 
 
 def format_date(date: Optional[datetime], format_str: str = None) -> str:

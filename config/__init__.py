@@ -1,8 +1,8 @@
 """
 Módulo de configuración
 """
-from app.config.settings import settings, Settings
-from app.config.database import (
+from config.settings import settings, Settings
+from config.database import (
     Base,
     engine,
     SessionLocal,

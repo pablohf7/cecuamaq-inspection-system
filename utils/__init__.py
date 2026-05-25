@@ -1,7 +1,7 @@
 """
 Utilidades del sistema
 """
-from app.utils.validators import (
+from utils.validators import (
     validate_email,
     validate_phone,
     validate_ruc_ecuador,
@@ -12,7 +12,7 @@ from app.utils.validators import (
     sanitize_filename
 )
 
-from app.utils.formatters import (
+from utils.formatters import (
     format_date,
     format_datetime,
     format_currency,
@@ -25,7 +25,7 @@ from app.utils.formatters import (
     format_inspection_number
 )
 
-from app.utils.constants import (
+from utils.constants import (
     ROLES,
     INSPECTION_STATES,
     USER_STATES,
@@ -41,7 +41,7 @@ from app.utils.constants import (
     MAX_PAGE_SIZE
 )
 
-from app.utils.logger import logger, setup_logger
+from utils.logger import logger, setup_logger
 
 __all__ = [
     # Validators
