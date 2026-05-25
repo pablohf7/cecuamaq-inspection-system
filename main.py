@@ -3,8 +3,9 @@ CECUAMAQ - Sistema de Inspecciones Industriales
 Aplicación principal
 """
 import flet as ft
-from config import check_db_connection, init_db, settings
-from utils import logger
+from app.config import check_db_connection, init_db
+from app.config import settings
+from app.utils import logger
 
 
 class CecuamaqApp:
@@ -47,20 +48,20 @@ class CecuamaqApp:
         # Campos de formulario
         username_field = ft.TextField(
             label="Usuario",
-            prefix_icon=ft.icons.PERSON,
+            prefix_icon=ft.Icons.PERSON,
             width=300,
             autofocus=True
         )
         
         password_field = ft.TextField(
             label="Contraseña",
-            prefix_icon=ft.icons.LOCK,
+            prefix_icon=ft.Icons.LOCK,
             password=True,
             can_reveal_password=True,
             width=300
         )
         
-        error_text = ft.Text(value="", color=ft.colors.RED, size=12)
+        error_text = ft.Text(value="", color=ft.Colors.RED, size=12)
         
         def on_login(e):
             """Manejar login"""
@@ -79,17 +80,18 @@ class CecuamaqApp:
                 self.page.update()
         
         login_button = ft.ElevatedButton(
-            text="Iniciar Sesión",
+            "Iniciar Sesión",   # texto directamente
             width=300,
             on_click=on_login
         )
         
+
         # Layout de login
         login_container = ft.Container(
             content=ft.Column(
                 [
                     ft.Container(height=50),
-                    ft.Icon(ft.icons.FACTORY, size=80, color=ft.colors.BLUE),
+                    ft.Icon(ft.Icons.FACTORY, size=80, color=ft.colors.BLUE),
                     ft.Text(
                         "CECUAMAQ",
                         size=32,
