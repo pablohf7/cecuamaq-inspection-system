@@ -1,0 +1,31 @@
+# ======================================
+# CECUAMAQ - Configuración de Entorno
+# ======================================
+
+# Base de datos PostgreSQL
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=cecuamaq_inspections
+DB_USER=postgres
+DB_PASSWORD=postgres
+
+# Configuración de la aplicación
+APP_NAME=Cecuamaq Inspection System
+APP_VERSION=1.0.0
+APP_ENV=development
+SECRET_KEY=change-this-secret-key-in-production-123456789
+
+# Rutas
+UPLOAD_PATH=./uploads/inspection_photos
+EXPORT_PATH=./exports
+LOG_PATH=./logs
+
+# Límites
+MAX_PHOTO_SIZE_MB=5
+MAX_PHOTOS_PER_INSPECTION=4
+
+# Sesión
+SESSION_TIMEOUT_MINUTES=480
+
+# Logging
+LOG_LEVEL=INFO
